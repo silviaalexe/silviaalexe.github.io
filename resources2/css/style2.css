@@ -22,7 +22,7 @@ h3 {
 }
 
 .h3white {
-  background-image: url('/Users/silvia/git_practice/silviaalexe.github.io/resources2/photos/the-flatiron-building.png');
+  background-image: url('./resources2/photos/the-flatiron-building.png');
   image-orientation: center;
   font-family: Helvetica;
   font-size: 23px;
@@ -32,7 +32,7 @@ h3 {
 }
 
 .broadwaybgimg {
-  background-image: url('/Users/silvia/git_practice/silviaalexe.github.io/resources2/photos/the-flatiron-building.png');
+  background-image: url('./resources2/photos/the-flatiron-building.png');
   vertical-align: middle;
 }
 
