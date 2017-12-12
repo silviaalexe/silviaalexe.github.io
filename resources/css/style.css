@@ -6,6 +6,7 @@ header {
     display: flex;
     position: fixed;
     align-items: center;
+    justify-content: space-between;
     z-index: 1;
     border-bottom: 1px solid black;
     height: 80px;
@@ -15,14 +16,32 @@ header {
 }
 nav {
   display: inline;
-  position: fixed;
   align-items: center;
   cursor: auto;
-  text-decoration: underline;
   color: black;
   padding-right: 40px;
 }
 
+nav a {
+  text-decoration: underline;
+  text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    text-size-adjust: 100%;
+    color: black;
+    cursor: auto;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav span {
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+.logo span {
+  padding: 20px 10px;
+}
 .logo {
 display: flex;
 align-items: center;
