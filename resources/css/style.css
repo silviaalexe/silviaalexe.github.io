@@ -58,6 +58,7 @@ border: 1px solid black;
 
 .columnlarge {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
   margin-right: 20px;
   margin-top:100px;
@@ -66,6 +67,7 @@ border: 1px solid black;
 
 .columnmedium {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
   margin-top:100px;
   margin-right: 20px;
@@ -74,6 +76,7 @@ border: 1px solid black;
 
 .columnsmall {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
   margin-top:100px;
   margin-left: 20px;
@@ -87,5 +90,13 @@ border: 1px solid black;
 
 .h2 {
   font-family: times;
+  border:1px solid black;
+}
+
+.h3 {
+  font-family: times;
+  border:1px solid black;
+}
+.cookie {
   border:1px solid black;
 }
