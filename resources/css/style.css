@@ -1,230 +1,175 @@
-header {
-  font-family: Verdana;
-    font-size: 14px;
-    font-weight: bold;
-    color: black;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-    border-bottom: 1px solid black;
-    height: 80px;
-    width: 100%;
-    background-color: white;
-    padding-right: 40px;
-    color: white;
-}
-nav {
-  display: inline;
+body {
+display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align: center;
   align-items: center;
-  cursor: auto;
-  color: black;
-  padding-right: 40px;
+   width: 1300px;
+}
+
+header {
+display: flex;
+position: fixed;
+align-items: center;
+justify-content: space-between;
+z-index: 1;
+height: 69px;
+border-bottom: 1px solid seashell;
+z-index: 5;
+background-color: black;
+width: 100%;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+  padding-bottom: 18px;
+
 }
 
 nav a {
+  color: seashell;
   text-decoration: underline;
-  text-decoration-line: underline;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-
-    color: black;
-    cursor: auto;
-    font-family: Verdana;
-    font-size: 14px;
-    font-weight: bold;
+  padding: 10px;
+  align-items: center;
 }
 
-nav span {
-  padding: 20px 10px;
-  text-decoration: underline;
+nav {
+  display: inline;
+  cursor: auto;
+  align-items: center;
+  justify-content: space-between;
+
 }
-.logo span {
-  padding: 20px 10px;
-}
-.logo {
-display: flex;
-align-items: center;
-flex-grow: 1;
-padding-left: 30px;
-color: mediumaquamarine;
 
 
+h2 {
+font-size: 1.5em;
+display: block;
+color: seashell;
+margin: 0px;
+padding: 10px;
+}
+
+h4 {
+margin: 0px;
+padding: 10px;
+color: seashell;
+
+}
+h5 {
+  display:block;
+  weight:bold;
 }
 .maincontainer {
-  display: flex;
-  margin: 0 auto
-  border: 3px solid black;
-}
-
-.columnlarge {
-  display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-  margin-top:100px;
-  margin-bottom: 65px;
-  width: 630px;
-}
-
-.columnmedium {
-  display: flex;
-  flex-direction: column;
-  margin-top:100px;
-  margin-right: 20px;
-  margin-bottom: 65px;
-   width: 300px;
-}
-
-.columnsmall {
-  display: flex;
-  flex-direction: column;
-  margin-top:100px;
-  margin-left: 20px;
-  margin-bottom: 65px;
-  width: 240px;
-}
-
-.mainstory .image-content {
-  display: flex;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  margin: 0 auto;
-  font-family: Georgia;
-  width: 630px;
-  height: 300px;
-  padding-left: 10px;
-  font-size: 40px;
-  font-weight: bold;
-  justify-content: center;
-  text-align: center;
-  color: white;
-
-}
-
-img.cookie {
-      height: 240px;
-}
-.storytext {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-  padding-left: 10px;
-}
-
-.stories {
-  display: flex;
-  flex-direction:row;
-
-}
-
-.story {
   display: block;
-  margin-right: 20px;
+  width: 1200px;
+
 }
 
-.text-content {
-  display: block;
-}
-
-.earth-flat.image-content {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  font-family: Georgia;
-  margin-top: 15px;
-  height: 300px;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
+.flex-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+padding-top: 70px;
+height: 700px;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+align-items: center;
 
 }
 
-.camera.image-content {
-  height: 300px;
-    display: flex;
-    margin-top: 15px;
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-}
-
-.cat.image-content {
-  height: 300px;
-    display: flex;
-    margin-top: 15px;
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 10px;
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-}
-h2 {
-  display: block;
-    font-size: 1.5em;
-  font-family: Georgia;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-}
-h3 {
-  font-size: 16px;
- text-align: center;
- font-weight: bold;
- margin-bottom: 30px;}
-
-
-
-.newsbites .bite {
-  display: flex;
-  margin: auto;
-  border-bottom: 1px solid black;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  border-color: black;
-  background-color: WhiteSmoke;
- font-family: Verdana;
- font-size: 12px;
- color: DimGray;
- text-align: left;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: MediumAquamarine;
-  height: 325px;
+#mission .content{
+  background-color: black;
   width: 100%;
   margin: auto;
-  font-family: Verdana;
-  font-size: 12px;
+  align-items: center;
+}
+#featuredtea {
+  padding-top: 70px;
+  height: 700px;
+  width: 1000px;
+
+
 }
 
-.times {
-  font-family: Georgia;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
+.flex-container .teas{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-content: center;
 
+}
+
+.tea img{
+display: block;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 300px;
+
+}
+
+.tea span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;}
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 70px;
+  height: 500px;
+  align-items: center;
+  display: block;
+
+
+}
+
+#locations .flex-container {
+  margin: auto;
+    width: 1100px;
+}
+
+.locations .flex-container {
+  padding-top: 5px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  align-items: center;
+
+}
+
+
+footer {
+display: flex;
+}
+
+#teacozy {
+  height: 200px;
+  display: block;
+}
+
+.contact p {
+  text-align:left;
+  padding-right: 20px;
 }
 
 .copyright {
-  padding-top: 20px;
-  justify-content: center;
-  font-family: Verdana;
-    font-size: 12px;
+  font-weight: bold;
 }
