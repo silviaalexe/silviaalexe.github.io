@@ -1,0 +1,231 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  height: 100%
+}
+
+body {
+  display: block;
+  flex-direction: column;
+
+}
+
+.company {
+  background-color: black;
+  color: white;
+
+
+}
+.logo {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company .logo {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+.logo img {
+height: 1rem;
+padding-left: 0.5rem;
+padding-right: 2rem;
+}
+
+.logo span {
+  color: white;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  padding-right: 1rem;
+
+}
+
+.banner {
+  display: block;
+background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+  }
+
+.container-banner {
+width: 960;
+margin: 0 auto;
+display: block;
+
+
+}
+
+.container-banner .heading {
+
+  margin-left: 110px;
+}
+
+
+.heading {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
+
+.heading h2 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 1em;
+  padding-left: 1,5rem;
+  padding-bottom: 0.25rem;
+
+}
+
+h1 {
+  display: block;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 0.50rem;
+  padding-left: 1,5rem;
+
+}
+
+
+nav {
+  display: block;
+  background-color: firebrick;
+    color: white;
+}
+
+nav ul {
+display: flex;
+  align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0;
+    list-style: none;
+}
+
+.container-nav {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.li {
+display: list-item;
+text-align: center;
+}
+
+.main-container {
+display: block;
+width: 960px;
+margin: 0 auto;
+}
+
+.items {
+display: flex;
+justify-content: space-between;
+margin-top: 3em;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.item {
+  width: 30%;
+  display: block;
+}
+
+.item-photo {
+  height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2em 0px;
+}
+
+.item-photo img {
+  max-width: 8rem;
+}
+
+img {
+  border-style: none;
+}
+
+.description {
+display: block;
+text-align: center;
+align-items: center;
+color: White;
+background-color: black;
+padding: 0.5rem;
+}
+
+.description span {
+align-items: center;
+
+}
+
+.container-business {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin:3em 0px 0px;
+}
+
+.detail {
+  display: block;
+  color: white;
+  width: 35%;
+
+}
+.location {
+  display: block;
+background-color: black;
+color: white;
+  padding-left:2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+}
+
+.hours {
+  display: block;
+background-color: black;
+color: white;
+  padding-left:2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.detail span {
+  color: black;
+}
+
+footer {
+  background-color: black;
+    color: white;
+  padding-top: 5em;
+      padding-right: 0px;
+      padding-bottom: 5em;
+      padding-left: 0px;
+      margin-top: 4em;
+
+}
+
+.footer-container {
+  width: 960;
+  margin: 0 auto;
+}
