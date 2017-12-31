@@ -41,6 +41,7 @@ h1 {
 
 .company .logo {
   display: flex;
+  background-color: black;
   align-items: center;
   padding: 12px 0 12px 0.5em;
 }
@@ -70,14 +71,12 @@ background-repeat: no-repeat;
   }
 
 .container-banner {
-width: 960;
+width: 960px;
 margin: 0 auto;
 display: block;
 }
 
-.container-banner .heading {
-  margin-left: 110px;
-}
+
 
 
 .heading {
@@ -90,7 +89,7 @@ display: block;
   top: 9em;
 }
 
-.heading h2 {
+h2 {
   font-family: Helvetica;
   font-size: 1rem;
   font-weight: bold;
@@ -276,6 +275,6 @@ footer {
 }
 
 .footer-container {
-  width: 960;
+  width: 960px;
   margin: 0 auto;
 }
