@@ -33,32 +33,27 @@ h1 {
 
 .company {
   background-color: black;
+  color: white;
+
 }
-.logo {
+
+.container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-.company .logo {
-  display: flex;
   background-color: black;
+    color: white;
+}
+
+.company .container {
+  display: flex;
   align-items: center;
-  padding: 12px 0 12px 0.5em;
+  padding: .66rem 0 .66rem 0.5rem;
 }
 
-.logo img {
-height: 1rem;
-padding-left: 0.5rem;
-padding-right: 2rem;
-}
-
-.logo span {
-  color: white;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
+.company img {
+  height: 1.5rem;
   padding-right: 1rem;
 }
-
 /*Banner*/
 
 .banner {
