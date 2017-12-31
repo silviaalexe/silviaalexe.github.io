@@ -179,8 +179,6 @@ margin-top: 3em;
 @media screen only and (max-width: 1024px), (orientation: portrait) {
   .item {
     width:47%;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
 
