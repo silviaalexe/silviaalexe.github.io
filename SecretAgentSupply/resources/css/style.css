@@ -9,18 +9,7 @@ body {
   flex-direction: column;
 }
 
-@media only screen and (max-width:1024px), (orientation: portrait) {
-  nav li {
-    display: none;
-  }
-  .mobile-nav {
-    display: block;
-    text-align: center;
-    color: white;
-  }
-}
-
-@media only screen and (max-width:470px) {
+@media only screen and (max-width:470px) {}
 
 h1 {
   font-family: Helvetica;
@@ -141,6 +130,17 @@ display: flex;
 
 .mobile-nav {
   display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
 }
 
 
