@@ -31,10 +31,33 @@ h2 {
 }
 
 
+@media only screen and (max-width: 470px) {
+
+  .heading {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+  .heading h1 {
+    font-size:1rem;
+  }
+
+  .heading h2 {
+    font-size:0.77rem;
+  }
+}
+
  .banner {
    height: 10rem;
  }
 }
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+}
+
 
 /*Header*/
 
@@ -77,20 +100,6 @@ display: block;
 }
 
 
-@media only screen and (max-width: 470px) {
-  h1 {
-    font-family: Helvetica;
-    font-size:1rem;
-    font-weight: bold;
-  }
-
-  h2 {
-    font-family: Helvetica;
-    font-size:0.77rem;
-    font-weight: bold;
-    padding-top: 1rem;
-  }
-}
 
 .heading {
   display: block;
@@ -189,6 +198,7 @@ margin-top: 3em;
 @media only screen and (max-width: 470px) {
   .item {
     width: 90%;
+    margin: auto;
 
   }
   .item.watch {
@@ -198,8 +208,14 @@ margin-top: 3em;
   .banner {
     width: auto;
   }
-  .items, .details {
+  .items,
+  .details {
     flex-wrap: wrap;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
   }
 }
 
@@ -266,7 +282,7 @@ align-items: center;
 }
 
 
-.location {
+.info {
   display: block;
 background-color: black;
 color: white;
@@ -275,14 +291,7 @@ color: white;
   padding-top: 1rem;
 }
 
-.hours {
-  display: block;
-background-color: black;
-color: white;
-  padding-left:2rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
+
 
 .gps {
   color: black;
