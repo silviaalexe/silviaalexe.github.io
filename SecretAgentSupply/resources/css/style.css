@@ -32,6 +32,7 @@ h1 {
 /*Header*/
 
 .company {
+  width: 100%;
   background-color: black;
   color: white;
 }
@@ -39,8 +40,6 @@ h1 {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  background-color: black;
-    color: white;
 }
 
 .company .container {
@@ -89,7 +88,7 @@ h2 {
   font-weight: bold;
   color: white;
   padding-top: 1em;
-  padding-left: 1,5rem;
+  padding-left: 1rem;
   padding-bottom: 0.25rem;
 
 }
@@ -101,7 +100,7 @@ h1 {
   font-weight: bold;
   color: white;
   padding-top: 0.50rem;
-  padding-left: 1,5rem;
+  padding-left: 1rem;
 
 }
 
@@ -166,17 +165,50 @@ margin-top: 3em;
 
 .item {
   width: 30%;
-  display: block;
+
 }
 
-@media screen only and (max-width: 1024px), (orientation: portrait) {
+.items .details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+@media screen only and (max-width: 1024px) {
   .item {
-    width:47%;
+    width: 47%;
+  }
+
+  .item.glasses {
+    display: none;
+  }
+
+}
+
+@media screen only and (max-width: 470px) {
+  .item {
+    width: 90%;
+    margin: auto;
+  }
+  .item.watch {
+    display: none;
+  }
+
+  .banner {
+    width: auto;
+  }
+  .items, .details {
+    flex-wrap: wrap;
   }
 }
 
+.item-photo img {
+  max-width: 8rem
+}
+
 .item-photo {
-  height: 9em;
+  height: 9rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,9 +219,7 @@ margin-top: 3em;
     padding: 2em 0px;
 }
 
-.item-photo img {
-  max-width: 8rem;
-}
+
 
 img {
   border-style: none;
@@ -231,8 +261,15 @@ align-items: center;
     width: 40%;
   }
 
-
 }
+
+.detail .location .hours {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
 
 .location {
   display: block;
