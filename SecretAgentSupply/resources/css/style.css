@@ -252,16 +252,10 @@ align-items: center;
 }
 
 .detail {
-  display: block;
   width: 35%;
 }
 
-@media screen only and (max-width: 1024px), (orientation: portrait) {
-  .detail {
-    width: 40%;
-  }
 
-}
 
 .detail .location .hours {
   display: block;
