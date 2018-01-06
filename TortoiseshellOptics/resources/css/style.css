@@ -227,8 +227,9 @@ display: flex;
 
    footer {
      align-items: center;
+     justify-content: center;
    }
-  
+
 
    footer div {
      display: none;
