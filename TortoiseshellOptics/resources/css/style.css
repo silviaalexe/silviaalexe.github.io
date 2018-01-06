@@ -189,25 +189,23 @@ p {
 
 .feature  {
   height: auto;
-  padding: 1rem;
-    font-size: 0.77rem;
-    margin: 1rem;
+    font-size: .77rem;
+    margin: .77rem;
   }
 
 .info {
   width: 100%;
 
 }
-.detail {
+.info .detail {
   width: 100%;
-  padding-top: 1rem;
-  margin-bottom: 2rem;
-    text-align: center;
     max-width: none;
+    margin-right: 0;
+    text-align: center;
 }
-.detail p {
+.info p {
   padding: 1rem;
-  font-size: 0.77rem;
+  font-size: .77rem;
 }
 }
 
@@ -228,8 +226,9 @@ display: flex;
  @media only screen and (max-width: 600px) {
 
    footer {
-     justify-content: center;
+     align-items: center;
    }
+  
 
    footer div {
      display: none;
