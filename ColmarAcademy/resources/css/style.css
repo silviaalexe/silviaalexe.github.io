@@ -3,7 +3,7 @@
 html {
   font-family: 'Nunito', sans-serif;
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -114,12 +114,12 @@ button:hover{
   display:flex;
   margin:0;
   background-color:white;
-  max-height: 350px;
+
 
 }
 
 .main-story-holder{
-  float:left;
+
   padding:32px 24px;
 display:block;
   height:auto;
@@ -137,83 +137,86 @@ height: auto;
   margin: 32px 0 24px 0;
 }
 
-.info {
-  display:flex;
-  flex-direction:column;
-  background:white;
+.supporting-content {
+  display: flex;
+  flex-direction: column;
   width:40%;
-  margin-left:24px;
-    box-sizing: border-box;
+  padding: 2rem 0;
 }
 
-.orientation-box {
+.content-image-box {
   display: flex;
-  background-color:white;
-  border-bottom-color:#4cb5f5;
-
+  padding: 1rem 0 1rem 1rem;
+  border-bottom: 1px solid rgb(245, 245, 245);
 }
 
-.orientation-photo-holder {
-  width:35%;
-  height: auto;
+.content-image-box:first-child {
+  padding-top:0;
+}
+.content-image-box:last-child{
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
-.orientation-box-text {
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-width: 65%;
-height:auto;
+.content-image-box.media-container {
+  width: 35%;
+  margin: .75rem;
 }
-
-.campus-box {
+.content-image-box.text-content {
   display: flex;
-  background-color:white;
+  flex-grow: column;
+  justify-content: center;
+  width:65%;
+  padding: 1rem 0.75rem 0 1rem;
 }
-.campus-photo-holder {
-  width:35%;
-  height: auto;
+.content-image-box h4 {
+  padding-bottom: .5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
-.campus-box-text {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 65%;
-  height:auto;
+.content-image-box p{
+  padding-bottom: .5rem;
+margin-left: 1rem;
 }
-.lecture-box {
-  display: flex;
-  background-color:white;
-}
+.content-image-box .mobile {
+  display: none;
 
-.lecture-photo-holder {
-  width:35%;
-  height: auto;
-}
-.lecture-text{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 65%;
-  height:auto;
-}
-
-
-h4 {
-  font-size: 1.5rem;
 }
 /* Programmes */
+
 #programmes {
-  display: block;
+display: flex;
+background-color:#b3c100;
+
 }
-.programmes-holder {
+
+.programmes-container{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items:center;
+padding-left: 72px;
+padding-right:72px;
+}
+
+.content-image-programme-box{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: space-around;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.media-container-programme{
 
 }
 
+.text-content-programme{
+
+}
+.programmes h1 {
+
+}
 /* Projects */
-#projects{
-display: ;
+
+#projects {
+
 }
