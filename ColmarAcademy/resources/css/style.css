@@ -27,22 +27,22 @@ h2 {
 
 h3 {
   font-family: "Raleway", sans-serif;
-  font-size: .75rem;
+  font-size: 1.2rem;
 }
 
 h4{
   font-family: "Raleway", sans-serif;
-  font-size: .625rem;
+  font-size: 1rem;
 }
 
 h5 {
   font-family: "Raleway", sans-serif;
-  font-size: .5rem;
+  font-size: .8rem;
 }
 
 p{
   font-family: "Nunito", sans-serif;
-font-size: .625rem;
+font-size: .8rem;
 
 }
 /* Header */
@@ -177,7 +177,14 @@ height: auto;
 
 #news h2 {
   margin: 32px 0 24px 0;
+  color:white;
 }
+
+#news h3, h5 {
+  color: white;
+}
+
+#ne
 
 .supporting-content {
   display: flex;
@@ -186,9 +193,25 @@ height: auto;
   padding: 2rem 0;
 }
 
+.supporting-content h3 {
+  color: white;
+}
+
+#news p, a {
+  color: white;
+  font-size: 0.8rem;
+
+}
+#news h5 {
+  font-style: italic;
+  font-weight: 100;
+}
+
 .content-image-box {
   display: flex;
   padding: 1rem 0 1rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
 
@@ -207,19 +230,11 @@ height: auto;
 .content-image-box.text-content {
   display: flex;
   flex-grow: column;
-  justify-content: center;
+  justify-content: left;
   width:65%;
   padding: 1rem 0.75rem 0 1rem;
 }
-.content-image-box h4 {
-  padding-bottom: .5rem;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-.content-image-box p{
-  padding-bottom: .5rem;
-margin-left: 1rem;
-}
+
 .content-image-box .mobile {
   display: none;
 
@@ -227,7 +242,8 @@ margin-left: 1rem;
 
 .text-content {
   margin-left:1rem;
-  align-items: center;
+  margin-right:1rem;
+
 }
 /* Programmes */
 
@@ -237,9 +253,11 @@ margin-left: 1rem;
       padding-bottom: 1.5rem;
 
 }
-
+#programmes h2 {
+  color: 
+}
 .programmes-container{
-  color: rgb(64,64,64);
+
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -280,13 +298,10 @@ margin-left: 1rem;
 
 }
 
-.text-content-programme p {
-  margin: 1rem 1rem;
-}
-.programmes-container h1 {
-  color: rgb(16,16,16);
-    font-size: 2rem;
-    font-weight: 500;
+
+.programmes-container h2 {
+  color: white;
+    font-weight: 300;
     padding: 2rem 0 1.5rem 0;
     width: 100%;
     text-align: center;
