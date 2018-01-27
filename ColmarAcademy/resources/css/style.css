@@ -2,7 +2,7 @@
 
 html {
   font-family: 'Nunito', sans-serif;
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
 
@@ -11,6 +11,40 @@ body {
   line-height: 1.2;
 }
 
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  width: 80%;
+  color:#34675c;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color:#34675c;
+
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: .75rem;
+}
+
+h4{
+  font-family: "Raleway", sans-serif;
+  font-size: .625rem;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: .5rem;
+}
+
+p{
+  font-family: "Nunito", sans-serif;
+font-size: .625rem;
+
+}
 /* Header */
 
 header {
@@ -20,7 +54,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  background-color: #4cb5f5;
+  background-color: #b3c100;
 }
 
 .colmar{
@@ -30,32 +64,36 @@ header {
 
 .academy {
   font-family: 'Nunito';
-  color:#b7b8b6;
+  color:#4cb5f5;
 }
 
 .logo-container {
   display:flex;
-  margin:0;
+  margin-left:24px;
   padding:0;
 
 }
 
-#desktop {
-
+nav {
   display: block;
-  z-index: 5;
+  z-index: 10;
 }
 
-#desktop a {
+nav a {
+  font-family:"Raleway", sans-serif;
+  font-size:12px;
   margin-left: 16px;
+  margin-right:24px;
 text-decoration:none;
-color:white;}
+color:white;
+}
 
-#desktop a:hover{
+nav a:hover{
   color:#34675c;
 }
 
 /* Banner */
+
 #banner {
 display:flex;
 padding:32px 24px;
@@ -79,12 +117,13 @@ height: auto;
   justify-content: center;
   align-items: center;
   padding:32px 24px;
+  margin-left: 24px;
 
 }
 
-.learn h1 {
-  font-family: "Nunito", sans-serif;
-  width: 80%;
+.learn h2 {
+  text-align: left;
+  width:80%;
 }
 
 button {
@@ -97,6 +136,7 @@ button {
   padding:.75rem;
 width:80%;
 
+
 }
 
 button:hover{
@@ -104,24 +144,25 @@ button:hover{
 
 }
 
-.learn h2  {
+#banner span  {
   width: 80%;
+  color:white;
+  text-align: center;
 }
+
 
 /* News and Features*/
 
 #news{
   display:flex;
   margin:0;
-  background-color:white;
-
-
+  background-color:#b3c100;
 }
 
 .main-story-holder{
-
   padding:32px 24px;
-display:block;
+display:flex;
+flex-direction: column;
   height:auto;
   width:60%;
 
@@ -131,6 +172,7 @@ display:block;
 .main-story-holder img {
 width: 100%;
 height: auto;
+
 }
 
 #news h2 {
@@ -182,12 +224,15 @@ margin-left: 1rem;
   display: none;
 
 }
+
+.text-content {
+  margin-left:1rem;
+  align-items: center;
+}
 /* Programmes */
 
 #programmes {
-  position: relative;
-      z-index: 10;
-      top: 4rem;
+      margin-top: 2rem;
       background-color: #4cb5f5;
       padding-bottom: 1.5rem;
 
@@ -229,13 +274,14 @@ margin-left: 1rem;
   width: 100%;
 }
 .text-content-programme{
-  margin: 0;
+  margin: 1rem 1rem;
       padding: 0;
+      align-items: center;
 
 }
 
 .text-content-programme p {
-  margin: 0 0 1.5rem 1rem;
+  margin: 1rem 1rem;
 }
 .programmes-container h1 {
   color: rgb(16,16,16);
@@ -253,84 +299,80 @@ margin-left: 1rem;
   flex-grow: column;
   justify-content: center;
 }
+
 /* Thesis */
-#thesis-exhibit{
-  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.thesis-container{
-  width: 100%;
-    display: flex;
-
-}
-#thesis-exhibit h1 {
-  font-family: "Nunito", serif;
-    font-size: 2rem;
-    padding: 32px 0;
-    text-align: center;
-}
-
-.thesis-left-column{
-  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.thesis-left-media-container{
-  height: auto;
-    width: 60%;
-    padding-left: 24px;
-}
-
-#thesis-exhibit video {
-  height: auto;
-    width: 100%;
-}
-.thesis-left-column-text {
-  margin: 24px 0 32px 24px;
-}
-
-.thesis-right-column {
-  min-width: 423px;
-    margin-left: 16px;
-}
-.thesis-right-media-container {
-  height: auto;
-    width: 100%;
-    padding-left: 24px;
-}
-
-.thesis-right-column-blue {
-  min-height: 168px;
-    display: flex;
-    align-items: center;
-}
-.thesis-right-media-container {
-  max-width: 35%;
-    height: auto;
-    margin: 16px;
-}
-.thesis-right-column-blue img {
-  width: 100%;
-    height: auto;
-}
-
-.thesis-right-column-text {
+.exhibition-featured {
   display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    margin-right: 8px;
 }
-#thesis h4 {
-  margin: 8px 0;
+.recent-exhibits {
+    display: block;
+  }
+  .exhibition-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+    margin-bottom: 32px;
+  }
+  .exhibit-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    max-width: 423px;
+    height: 168px;
+  }
+  .exhibit-card img {
+    width: 35%;
+    margin-right: 16px;
+  }
+  .exhibit-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .exhibit-card:first-child {
+    background: lightgrey;
+  }
+  .exhibit-vid {
+    margin-right: 24px;
+    width: 60%;
+  }
+  .exhibit-vid h3, .exhibit-vid p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+  }
 }
-#thesis {
-  color: rgb(16,16,16);
-    font-size: 2rem;
-    font-weight: 500;
-    padding: 2rem 0 1rem 0;
-    width: 100%;
-    text-align: center;
+
+/*Footer*/
+
+footer > nav {
+  display: none;
+}
+
+footer {
+  padding: 32px 0;
+}
+
+.copyright {
+  margin-left: 24px;
+}
+
+@media only screen and (min-width: 400px) {
+  footer {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer nav {
+    display: flex;
+  }
+  footer nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  footer nav ul li:first-child {
+    margin-right: 16px;
+  }
 }
