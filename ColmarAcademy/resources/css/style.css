@@ -249,21 +249,40 @@ height: auto;
 
 #programmes {
       margin-top: 2rem;
+      margin-bottom: 2rem;
       background-color: #4cb5f5;
       padding-bottom: 1.5rem;
 
 }
-#programmes h2 {
-  color: 
+
+.programmes-container h2 {
+  color: white;
+    font-weight: 600;
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
 }
+
+
+.programmes-container p{
+  color:#34675c;
+}
+
+#programmes h3 {
+  color: #34675c;
+}
+
+
 .programmes-container{
 
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
-      margin-bottom: 1.5rem;
-      line-height: 1.15;
+      margin-bottom: 2rem;
+      line-height: 1.2;
 }
 .programmes {
   display: flex;
@@ -298,66 +317,84 @@ height: auto;
 
 }
 
-
-.programmes-container h2 {
-  color: white;
-    font-weight: 300;
-    padding: 2rem 0 1.5rem 0;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-
-}
-
 .content-image-programme-box.text-content-programme {
   display: flex;
   flex-grow: column;
   justify-content: center;
 }
 
-/* Thesis */
-.exhibition-featured {
+
+
+/* Theses */
+#thesis {
   display: flex;
+  background-color:#b3c100;
+
 }
-.recent-exhibits {
-    display: block;
+
+  .main-thesis-holder {
+    padding:32px 24px;
+  display:flex;
+  flex-direction: column;
+    height:auto;
+    width:60%;
+
   }
-  .exhibition-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 24px;
-    margin-bottom: 32px;
+  .main-thesis-container h2 {
+    color: white;
+      font-weight: 600;
+      padding: 2rem 0 2rem 0;
+      width: 100%;
+      text-align: center;
+      margin: 0;
   }
-  .exhibit-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px;
-    max-width: 423px;
-    height: 168px;
+
+
+  .main-thesis-vid video {
+    max-width: 600px;
+    height:auto;
+    margin-right: 24px;
+
   }
-  .exhibit-card img {
+
+.supporting-content-thesis {
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  padding: 2rem 0;
+}
+
+.thesis-box {
+  display: flex;
+  padding: 1rem 0 1rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+
+.thesis-box.thesis-media-container {
+  width: 35%;
+  margin: .75rem;
+}
+.rhesis-box.thesis-info {
+  display: flex;
+  flex-grow: column;
+  justify-content: left;
+  width:65%;
+  padding: 1rem 0.75rem 0 1rem;
+}
+
+  .thesis-info img {
     width: 35%;
     margin-right: 16px;
   }
-  .exhibit-info {
-    display: flex;
-    flex-direction: column;
-  }
-  .exhibit-card:first-child {
+
+  .thesis-info:first-child {
     background: lightgrey;
   }
-  .exhibit-vid {
-    margin-right: 24px;
-    width: 60%;
-  }
-  .exhibit-vid h3, .exhibit-vid p {
-    display: flex;
-    flex-direction: column;
-    padding-top: 24px;
-  }
-}
+
+
 
 /*Footer*/
 
