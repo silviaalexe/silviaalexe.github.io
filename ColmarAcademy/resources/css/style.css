@@ -447,7 +447,24 @@ flex-grow: column;
 justify-content: center;
 }
 
-
+@media only screen and (max-width: 450px) {
+  #programmes .media-container-programme {
+    display: none;
+  }
+  #programmes p {
+    display: none;
+  }
+  #programmes h3 {
+    text-align: center;
+  }
+  #programmes .text-content-programme h3{
+    padding-top: 16px;
+    padding-left:16px;
+    padding-bottom:24px;
+    padding-right:16px;
+    align-items: center;
+  }
+}
 
 /* Thesis */
 
