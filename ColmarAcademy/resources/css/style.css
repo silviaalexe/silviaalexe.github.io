@@ -74,17 +74,17 @@ header {
   header {
     height: 64px;
   }
-.mobile nav {
-  display: inline-block;
-
+.mobile {
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .logo-mobile {
   padding: 1rem 1rem 1rem 1rem;
-  max-width: 100%;
+
 }
-nav object {
-  color:white;
-}
+
 .logo-container img {
   display: none;
 }
@@ -198,8 +198,32 @@ button:hover{
 }
 
 @media only screen and (max-width: 450px) {
+  #banner {
+    flex-wrap: wrap;
+  }
+  .learn {
+    display: flex;
+flex-flow: wrap column;
+justify-content: center;
+margin: 0px;
+padding: 0px;
+width: 100%;
+  }
+  .learn h1 {
+  width:100%;
+  margin:0px;
+  padding:16px 16px;
+  text-align: center;
+  }
+  .learn h2 {
+  width:100%;
+  margin:0px;
+  padding:16px 16px;
+  text-align: center;
+  width:80%;
+  }
   .banner-holder img {
-    width:100%;
+    max-width: 100%;
   }
 }
 
