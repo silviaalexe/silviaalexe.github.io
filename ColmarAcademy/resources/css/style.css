@@ -565,7 +565,32 @@ height: auto;
   margin-right:1rem;
 
 }
+@media only screen and (max-width: 450px) {
+  #thesis .main-story-holder {
+    flex-direction: column;
+    width: 100%;
+  }
 
+  #thesis .main-story-holder video {
+    width:100%;
+  }
+
+  #thesis .content-thesis-box {
+    display:none;
+  }
+  #thesis .media-container img {
+    display: none;
+  }
+  #thesis .main-story-holder h3, p {
+    display: none;
+  }
+
+#thesis .thesis-content h3, p, a{
+      display: none;
+    }
+
+
+}
 
 /*Footer*/
 
