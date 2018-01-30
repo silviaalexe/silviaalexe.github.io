@@ -353,7 +353,8 @@ width: 100%;
   flex-direction: column;
 }
 #news .text-content {
-  max-width: 14rem;
+
+  max-width: 7rem;
     padding: 1rem;
 }
 #news .supporting-content {
