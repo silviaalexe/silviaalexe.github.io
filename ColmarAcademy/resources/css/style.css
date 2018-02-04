@@ -435,7 +435,7 @@ button {
 
 #programmes h3 {
   color: #34675c;
-  font-size: 1.2rem;
+
 }
 
 
@@ -497,6 +497,7 @@ justify-content: center;
   #programmes h3 {
     text-align: center;
     width: 100%;
+    font-size: 1.2rem;
   }
 
   #programmes .text-content-programme h3{
