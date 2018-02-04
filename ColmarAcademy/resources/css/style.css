@@ -511,6 +511,7 @@ justify-content: center;
     padding-bottom: 0;
     padding-right:16px;
     align-items: center;
+    border-left: thin #34675c;
   }
 .content-image-programme-box:hover {
     background-color: #b3c100;
