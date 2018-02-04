@@ -182,6 +182,7 @@ button {
   align-items: center;
   padding:.75rem;
 width:80%;
+border: none;
 
 
 }
@@ -519,9 +520,11 @@ flex-direction: column;
 
 }
 
-.main-story-holder video {
+.main-story-holder {
 width: 100%;
 height: auto;
+padding: 0;
+margin:0;
 
 }
 .thesis-container {
